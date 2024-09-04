@@ -34,13 +34,11 @@ NODES=(
     "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
     "https://github.com/kijai/ComfyUI-Florence2"
     "https://github.com/un-seen/comfyui-tensorops"
-#    "https://github.com/TTPlanetPig/Comfyui_TTP_Toolset"
     "https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
     "https://github.com/lquesada/ComfyUI-Inpaint-CropAndStitch"
     "https://github.com/melMass/comfy_mtb"
     "https://github.com/bash-j/mikey_nodes"
     "https://github.com/chrisgoringe/cg-image-picker"
-#    "https://github.com/ronniebasak/ComfyUI-Tara-LLM-Integration"
     "https://github.com/kijai/ComfyUI-KJNodes"
     "https://github.com/Fannovel16/comfyui_controlnet_aux"
     "https://github.com/sipherxyz/comfyui-art-venture"
@@ -56,34 +54,18 @@ CHECKPOINT_SD15=(
 
 CHECKPOINT_SDXL=(
     "https://civitai.com/api/download/models/782002?type=Model&format=SafeTensor&size=full&fp=fp16"
-#    "https://huggingface.co/RunDiffusion/Juggernaut-XI-v11/resolve/main/Juggernaut-XI-byRunDiffusion.safetensors"
-#    "https://huggingface.co/misri/zavychromaxl_v90/resolve/main/zavychromaxl_v90.safetensors"
-#    "https://huggingface.co/albedobond/albedobaseXL_v21/resolve/main/albedobaseXL_v21.safetensors"
-#    "https://huggingface.co/RunDiffusion/Juggernaut-XI-v11/resolve/main/Juggernaut-XI-byRunDiffusion.safetensors"
-# Turbo/Lighting
-# TurboVision XL
-#    "https://civitai.com/api/download/models/273102?type=Model&format=SafeTensor&size=pruned&fp=fp16" 
-#    "https://huggingface.co/SG161222/RealVisXL_V4.0_Lightning/resolve/main/RealVisXL_V4.0_Lightning.safetensors"
-#    "https://huggingface.co/Lykon/dreamshaper-xl-v2-turbo/resolve/main/DreamShaperXL_Turbo_v2_1.safetensors"
     "https://huggingface.co/Lykon/dreamshaper-xl-lightning/resolve/main/DreamShaperXL_Lightning.safetensors"
 )
 
 CHECKPOINT_FLUX=(
-# FLUX NF4
-#    "https://huggingface.co/lllyasviel/flux1-dev-bnb-nf4/resolve/main/flux1-dev-bnb-nf4-v2.safetensors"
-#    "https://huggingface.co/silveroxides/flux1-nf4-weights/resolve/main/flux1-schnell-bnb-nf4.safetensors"
 )
 
 CHECKPOINT_MODELS=(
-# SUPIR
-#    "https://huggingface.co/Kijai/SUPIR_pruned/resolve/main/SUPIR-v0F_fp16.safetensors"
-#    "https://huggingface.co/Kijai/SUPIR_pruned/resolve/main/SUPIR-v0Q_fp16.safetensors"
 )
 
 UNET_MODELS=(
    "https://huggingface.co/camenduru/FLUX.1-dev/resolve/main/flux1-dev-fp8.safetensors"
    "https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/flux1-dev.safetensors"
-#   "https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/flux1-schnell.safetensors"
 )
 
 CLIP_MODELS=(
@@ -128,25 +110,11 @@ VAE_MODELS=(
 )
 
 IPADAPTER_MODELS=(
-#  "https://huggingface.co/ostris/ip-composition-adapter/resolve/main/ip_plus_composition_sdxl.safetensors"
-#  "https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15.safetensors"
-#  "https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15_light_v11.bin"
-#  "https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-plus_sd15.safetensors"
-#  "https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-plus-face_sd15.safetensors"
-#  "https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-full-face_sd15.safetensors"
-#  "https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15_vit-G.safetensors"
-#  "https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/ip-adapter_sdxl_vit-h.safetensors"
-#  "https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/ip-adapter-plus_sdxl_vit-h.safetensors"
-#  "https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/ip-adapter-plus-face_sdxl_vit-h.safetensors"
-#  "https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/ip-adapter_sdxl.safetensors"
-#  "https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15_light.safetensors"
 )
 
 
 ESRGAN_MODELS=(
     "https://huggingface.co/Akumetsu971/SD_Anime_Futuristic_Armor/resolve/main/4x_NMKD-Siax_200k.pth"
-#    "https://huggingface.co/IPoly/comfy_deploy_m/resolve/main/4xNomos8kDAT.pth"
-#    "https://huggingface.co/IPoly/comfy_deploy_m/resolve/main/2xNomosUni_esrgan_multijpg.pth"
     "https://huggingface.co/IPoly/comfy_deploy_m/resolve/main/4xLSDIRplusC.pth"
     "https://huggingface.co/IPoly/comfy_deploy_m/resolve/main/4xNomosUniDAT2_multijpg_ldl.pth"
     "https://huggingface.co/IPoly/comfy_deploy_m/resolve/main/4xNomos8k_atd_jpg.pth"
@@ -163,16 +131,9 @@ CONTROLNET_SD15=(
 CONTROLNET_SDXL=(
 #   ControlNet Union Promax
 #   "https://huggingface.co/xinsir/controlnet-union-sdxl-1.0/resolve/main/diffusion_pytorch_model_promax.safetensors"
-#   "https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/diffusers_xl_canny_mid.safetensors"
-#   "https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/diffusers_xl_depth_mid.safetensors"
-#   "https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/t2i-adapter_diffusers_xl_openpose.safetensors"
   "https://huggingface.co/xinsir/controlnet-tile-sdxl-1.0/resolve/main/diffusion_pytorch_model.safetensors controlnet-tile-sdxl-1.0.safetensors"
   "https://huggingface.co/xinsir/controlnet-openpose-sdxl-1.0/resolve/main/diffusion_pytorch_model.safetensors controlnet-openpose-sdxl-1.0.safetensors"
   "https://huggingface.co/xinsir/controlnet-depth-sdxl-1.0/resolve/main/diffusion_pytorch_model.safetensors controlnet-depth-sdxl-1.0.safetensors"
-# Stability AI
-# "https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank256/control-lora-depth-rank256.safetensors"
-# "https://huggingface.co/diffusers/controlnet-depth-sdxl-1.0-mid/resolve/main/diffusion_pytorch_model.fp16.safetensors 
-controlnet-depth-sdxl-1.0-mid.safetensors"
 )
 
 CONTROLNET_FLUX=(
